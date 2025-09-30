@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: #f4f4f4;
     color: #333;
 }
 
@@ -16,5 +16,14 @@ header {
 
 main {
     padding: 20px;
+}
+
+footer {
     text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
